@@ -11,6 +11,9 @@ public class Reduce {
             else  {
                 n -= 1;
             }
+
+            steps += 1;
         }
+        System.out.println(steps);
     }
 }
